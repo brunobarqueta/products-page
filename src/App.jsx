@@ -2,16 +2,17 @@ import './App.css'
 
 import Footer from './components/Footer/Footer'
 import InfoProduct from './components/InfoProduct'
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
 import Product from './components/Product/Product'
 import RelatedProducts from './components/RelatedProducts/RelatedProducts'
-import { useState } from 'react'
+import Title from './components/Title'
 
 function App() {
 
   return (
     <> 
-      {/*<NavBar />*/}
+      <NavBar />
+      <Title />
       <Product />
       <InfoProduct />
       <RelatedProducts />

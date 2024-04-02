@@ -6,7 +6,7 @@ import tv4 from "../../assets/tv4.png";
 
 const RelatedProducts = () => {
 	return (
-		<div className="container mx-auto md:py-12 px-4 md:px-6 lg:px-8 font-['Inter']">
+		<div className="container mx-auto md:py-12 px-4 md:px-6 lg:px-8 font-inter">
 			<div className="mb-10">
 				<h2 className="text-3xl font-medium text-[#191919] my-16 text-center">Related Products</h2>
 				<div className="grid grid-cols-2 md:grid-cols-4 gap-6">

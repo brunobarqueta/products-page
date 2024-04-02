@@ -29,7 +29,7 @@ const InfoProduct = () => {
 	const [activeTab, setActiveTab] = useState(1);
 
 	return (
-		<div className="flex flex-col items-center font-['Inter'] w-full gap-8 mt-16">
+		<div className="flex flex-col items-center font-inter w-full gap-8 mt-16">
 			<div className="w-full md:px-8">
 				<div className="mb-4">
 					<div className="flex flex-row justify-center gap-4 md:justify-between border-b border-[#d9d9d9] md:px-48">

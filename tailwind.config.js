@@ -8,6 +8,10 @@ export default {
         extend: {
             backgroundImage: {
                 'newsletter-hero': "url('/src/assets/bg.png')",
+            },
+            fontFamily: {
+                'inter': ['Inter', 'sans-serif'],
+                'insconsolata': ['Inconsolata', 'sans-serif'],
             }
         },
     },

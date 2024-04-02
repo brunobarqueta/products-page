@@ -17,7 +17,7 @@ const Footer = () => {
 	];
 
 	return (
-		<div className="font-['Inter']">
+		<div className="font-inter">
 			<div className="relative flex flex-col items-start w-full bg-newsletter-hero bg-cover bg-no-repeat">
 				<NewsletterSection />
 			</div>
